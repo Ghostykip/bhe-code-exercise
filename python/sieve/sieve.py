@@ -5,7 +5,7 @@ class Sieve:
         i = 2
         x = 0
         prime = True
-        while x <= 1000000:
+        while x <= 10000000:
             f = 2
             while f < i:
                 if i % f != 0:
